@@ -1,0 +1,117 @@
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    padding: 3px 0 0 14px;
+    border-left: 1px solid #c81523;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.sk_con ul li:last-child a::after {
+    content: '\e903';
+    font-family: "icomoon";
+}
+
+.sk_contatiner {
+    margin-bottom: 282px;
+}
+
+.sk_contatiner .sk_bd {
+    overflow: hidden;
+}
+
+.sk_contatiner .sk_bd ul li {
+    float: left;
+    width: 290px;
+    height: 462px;
+    /*background-color: pink;*/
+    margin-top: 25px;
+    border: 1px solid transparent;
+}
+
+.sk_contatiner .sk_bd ul li:nth-child(4n) {
+    margin-right: 13px;
+}
+
+.sk_contatiner .sk_bd ul li:hover {
+    border: 1px solid #c81623;
+}
+
+.sk_contatiner .sk_bd ul li .title {
+    padding: 0 12px;
+    font-size: 14px;
+    color: #747474;
+}
+
+.sk_contatiner .sk_bd ul li .price .num {
+    font-size: 22px;
+    color: #e60012;
+}
+
+.sk_contatiner .sk_bd ul li .price .del {
+    font-size: 14px;
+    color: #b5b5b5;
+    text-decoration:line-through
+}
+
+.sk_contatiner .sk_bd ul li .price {
+    padding:  18px 24px 0px;
+}
+
+.sk_contatiner .sk_bd ul li .progress-bar {
+    height: 13px;
+    /*background-color: #00a4ff;*/
+}
+
+.sk_contatiner .sk_bd ul li .sold {
+    font-size: 14px;
+    line-height: 13px;
+    color: #c1c1c1;
+}
+
+.sk_contatiner .sk_bd ul li  a .qianggou {
+    height: 50px;
+    width: 100%;
+    background-color: #c81623;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 28px;
+}
+
